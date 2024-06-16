@@ -1,0 +1,400 @@
+Generation 0:
+  Min Execution Time (ms) = 0.0015999976
+  Avg Execution Time (ms) = 0.0021719996
+  Median Execution Time (ms) = 0.0019499985
+  Variance Execution Time (ms) = 0.0000009572
+  Range Execution Time (ms) = 0.0063000007
+  Improvement Time (%) = 85.32
+
+Generation 1:
+  Min Execution Time (ms) = 0.0013999997
+  Avg Execution Time (ms) = 0.0018319998
+  Median Execution Time (ms) = 0.0017000002
+  Variance Execution Time (ms) = 0.0000002716
+  Range Execution Time (ms) = 0.0047000030
+  Improvement Time (%) = 87.16
+
+Generation 2:
+  Min Execution Time (ms) = 0.0013999997
+  Avg Execution Time (ms) = 0.0081199999
+  Median Execution Time (ms) = 0.0048000002
+  Variance Execution Time (ms) = 0.0000435838
+  Range Execution Time (ms) = 0.0159000010
+  Improvement Time (%) = 87.16
+
+Generation 3:
+  Min Execution Time (ms) = 0.0013999997
+  Avg Execution Time (ms) = 0.0024110000
+  Median Execution Time (ms) = 0.0017000020
+  Variance Execution Time (ms) = 0.0000055054
+  Range Execution Time (ms) = 0.0136000017
+  Improvement Time (%) = 87.16
+
+Generation 4:
+  Min Execution Time (ms) = 0.0013999997
+  Avg Execution Time (ms) = 0.0019410001
+  Median Execution Time (ms) = 0.0017999992
+  Variance Execution Time (ms) = 0.0000004328
+  Range Execution Time (ms) = 0.0056000026
+  Improvement Time (%) = 87.16
+
+Generation 5:
+  Min Execution Time (ms) = 0.0013999997
+  Avg Execution Time (ms) = 0.0019380003
+  Median Execution Time (ms) = 0.0018999999
+  Variance Execution Time (ms) = 0.0000004124
+  Range Execution Time (ms) = 0.0061999999
+  Improvement Time (%) = 87.16
+
+Generation 6:
+  Min Execution Time (ms) = 0.0015000005
+  Avg Execution Time (ms) = 0.0025430000
+  Median Execution Time (ms) = 0.0017000020
+  Variance Execution Time (ms) = 0.0000087802
+  Range Execution Time (ms) = 0.0228999961
+  Improvement Time (%) = 86.24
+
+Generation 7:
+  Min Execution Time (ms) = 0.0015000005
+  Avg Execution Time (ms) = 0.0018900002
+  Median Execution Time (ms) = 0.0017000020
+  Variance Execution Time (ms) = 0.0000004809
+  Range Execution Time (ms) = 0.0059999984
+  Improvement Time (%) = 86.24
+
+Generation 8:
+  Min Execution Time (ms) = 0.0010000003
+  Avg Execution Time (ms) = 0.0014310002
+  Median Execution Time (ms) = 0.0012000019
+  Variance Execution Time (ms) = 0.0000003503
+  Range Execution Time (ms) = 0.0056000026
+  Improvement Time (%) = 90.83
+
+Generation 9:
+  Min Execution Time (ms) = 0.0009999967
+  Avg Execution Time (ms) = 0.0012810000
+  Median Execution Time (ms) = 0.0011999982
+  Variance Execution Time (ms) = 0.0000002977
+  Range Execution Time (ms) = 0.0052000032
+  Improvement Time (%) = 90.83
+
+Generation 10:
+  Min Execution Time (ms) = 0.0009999967
+  Avg Execution Time (ms) = 0.0020999999
+  Median Execution Time (ms) = 0.0015000005
+  Variance Execution Time (ms) = 0.0000321644
+  Range Execution Time (ms) = 0.0571000055
+  Improvement Time (%) = 90.83
+
+Generation 11:
+  Min Execution Time (ms) = 0.0009999967
+  Avg Execution Time (ms) = 0.0015399996
+  Median Execution Time (ms) = 0.0015499991
+  Variance Execution Time (ms) = 0.0000004014
+  Range Execution Time (ms) = 0.0056000026
+  Improvement Time (%) = 90.83
+
+Generation 12:
+  Min Execution Time (ms) = 0.0008999996
+  Avg Execution Time (ms) = 0.0014129999
+  Median Execution Time (ms) = 0.0011999982
+  Variance Execution Time (ms) = 0.0000003909
+  Range Execution Time (ms) = 0.0037000027
+  Improvement Time (%) = 91.74
+
+Generation 13:
+  Min Execution Time (ms) = 0.0009999967
+  Avg Execution Time (ms) = 0.0016009998
+  Median Execution Time (ms) = 0.0015999976
+  Variance Execution Time (ms) = 0.0000004971
+  Range Execution Time (ms) = 0.0061999999
+  Improvement Time (%) = 90.83
+
+Generation 14:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0012609997
+  Median Execution Time (ms) = 0.0011000011
+  Variance Execution Time (ms) = 0.0000002584
+  Range Execution Time (ms) = 0.0044999979
+  Improvement Time (%) = 92.66
+
+Generation 15:
+  Min Execution Time (ms) = 0.0008000025
+  Avg Execution Time (ms) = 0.0014729996
+  Median Execution Time (ms) = 0.0013000008
+  Variance Execution Time (ms) = 0.0000003890
+  Range Execution Time (ms) = 0.0044999979
+  Improvement Time (%) = 92.66
+
+Generation 16:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0012849999
+  Median Execution Time (ms) = 0.0011000011
+  Variance Execution Time (ms) = 0.0000002911
+  Range Execution Time (ms) = 0.0044000008
+  Improvement Time (%) = 92.66
+
+Generation 17:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0011050000
+  Median Execution Time (ms) = 0.0010000003
+  Variance Execution Time (ms) = 0.0000000995
+  Range Execution Time (ms) = 0.0026000016
+  Improvement Time (%) = 92.66
+
+Generation 18:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0010260001
+  Median Execution Time (ms) = 0.0010000003
+  Variance Execution Time (ms) = 0.0000000581
+  Range Execution Time (ms) = 0.0016000013
+  Improvement Time (%) = 92.66
+
+Generation 19:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0013660003
+  Median Execution Time (ms) = 0.0012999990
+  Variance Execution Time (ms) = 0.0000004070
+  Range Execution Time (ms) = 0.0049000009
+  Improvement Time (%) = 92.66
+
+Generation 20:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0015270000
+  Median Execution Time (ms) = 0.0012999990
+  Variance Execution Time (ms) = 0.0000013162
+  Range Execution Time (ms) = 0.0101000005
+  Improvement Time (%) = 92.66
+
+Generation 21:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0014160001
+  Median Execution Time (ms) = 0.0012999990
+  Variance Execution Time (ms) = 0.0000003843
+  Range Execution Time (ms) = 0.0044000044
+  Improvement Time (%) = 92.66
+
+Generation 22:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0011210002
+  Median Execution Time (ms) = 0.0010000003
+  Variance Execution Time (ms) = 0.0000001923
+  Range Execution Time (ms) = 0.0037000027
+  Improvement Time (%) = 92.66
+
+Generation 23:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0010519998
+  Median Execution Time (ms) = 0.0009000014
+  Variance Execution Time (ms) = 0.0000001843
+  Range Execution Time (ms) = 0.0032000025
+  Improvement Time (%) = 92.66
+
+Generation 24:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0014289999
+  Median Execution Time (ms) = 0.0012999990
+  Variance Execution Time (ms) = 0.0000005477
+  Range Execution Time (ms) = 0.0043000000
+  Improvement Time (%) = 92.66
+
+Generation 25:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0016679998
+  Median Execution Time (ms) = 0.0013999997
+  Variance Execution Time (ms) = 0.0000023820
+  Range Execution Time (ms) = 0.0144000005
+  Improvement Time (%) = 92.66
+
+Generation 26:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0011129997
+  Median Execution Time (ms) = 0.0010999993
+  Variance Execution Time (ms) = 0.0000000871
+  Range Execution Time (ms) = 0.0018000028
+  Improvement Time (%) = 92.66
+
+Generation 27:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0014379997
+  Median Execution Time (ms) = 0.0012999990
+  Variance Execution Time (ms) = 0.0000004778
+  Range Execution Time (ms) = 0.0042000029
+  Improvement Time (%) = 92.66
+
+Generation 28:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0013769998
+  Median Execution Time (ms) = 0.0013999997
+  Variance Execution Time (ms) = 0.0000002920
+  Range Execution Time (ms) = 0.0027999995
+  Improvement Time (%) = 92.66
+
+Generation 29:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0010759996
+  Median Execution Time (ms) = 0.0010000003
+  Variance Execution Time (ms) = 0.0000001010
+  Range Execution Time (ms) = 0.0021999986
+  Improvement Time (%) = 92.66
+
+Generation 30:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0011399996
+  Median Execution Time (ms) = 0.0010499989
+  Variance Execution Time (ms) = 0.0000001560
+  Range Execution Time (ms) = 0.0022999993
+  Improvement Time (%) = 92.66
+
+Generation 31:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0013089999
+  Median Execution Time (ms) = 0.0013000026
+  Variance Execution Time (ms) = 0.0000002116
+  Range Execution Time (ms) = 0.0032000025
+  Improvement Time (%) = 92.66
+
+Generation 32:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0010299998
+  Median Execution Time (ms) = 0.0008999996
+  Variance Execution Time (ms) = 0.0000001379
+  Range Execution Time (ms) = 0.0031000018
+  Improvement Time (%) = 92.66
+
+Generation 33:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0009750000
+  Median Execution Time (ms) = 0.0008999996
+  Variance Execution Time (ms) = 0.0000000991
+  Range Execution Time (ms) = 0.0027000024
+  Improvement Time (%) = 92.66
+
+Generation 34:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0009779996
+  Median Execution Time (ms) = 0.0008999996
+  Variance Execution Time (ms) = 0.0000001029
+  Range Execution Time (ms) = 0.0027000024
+  Improvement Time (%) = 92.66
+
+Generation 35:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0012019997
+  Median Execution Time (ms) = 0.0008999996
+  Variance Execution Time (ms) = 0.0000003070
+  Range Execution Time (ms) = 0.0035000012
+  Improvement Time (%) = 92.66
+
+Generation 36:
+  Min Execution Time (ms) = 0.0006999981
+  Avg Execution Time (ms) = 0.0010339997
+  Median Execution Time (ms) = 0.0008999996
+  Variance Execution Time (ms) = 0.0000001264
+  Range Execution Time (ms) = 0.0026000016
+  Improvement Time (%) = 93.58
+
+Generation 37:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0014029996
+  Median Execution Time (ms) = 0.0012999990
+  Variance Execution Time (ms) = 0.0000006771
+  Range Execution Time (ms) = 0.0070000024
+  Improvement Time (%) = 92.66
+
+Generation 38:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0014249997
+  Median Execution Time (ms) = 0.0012999990
+  Variance Execution Time (ms) = 0.0000006237
+  Range Execution Time (ms) = 0.0060000020
+  Improvement Time (%) = 92.66
+
+Generation 39:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0012399995
+  Median Execution Time (ms) = 0.0011000011
+  Variance Execution Time (ms) = 0.0000004810
+  Range Execution Time (ms) = 0.0059000013
+  Improvement Time (%) = 92.66
+
+Generation 40:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0010379996
+  Median Execution Time (ms) = 0.0008999996
+  Variance Execution Time (ms) = 0.0000002208
+  Range Execution Time (ms) = 0.0039000006
+  Improvement Time (%) = 92.66
+
+Generation 41:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0013219994
+  Median Execution Time (ms) = 0.0013000026
+  Variance Execution Time (ms) = 0.0000003501
+  Range Execution Time (ms) = 0.0035999983
+  Improvement Time (%) = 92.66
+
+Generation 42:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0012449994
+  Median Execution Time (ms) = 0.0012000019
+  Variance Execution Time (ms) = 0.0000003753
+  Range Execution Time (ms) = 0.0050999988
+  Improvement Time (%) = 92.66
+
+Generation 43:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0010399996
+  Median Execution Time (ms) = 0.0008999996
+  Variance Execution Time (ms) = 0.0000003338
+  Range Execution Time (ms) = 0.0053000003
+  Improvement Time (%) = 92.66
+
+Generation 44:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0011129997
+  Median Execution Time (ms) = 0.0008999996
+  Variance Execution Time (ms) = 0.0000010289
+  Range Execution Time (ms) = 0.0073999981
+  Improvement Time (%) = 92.66
+
+Generation 45:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0013159999
+  Median Execution Time (ms) = 0.0012999990
+  Variance Execution Time (ms) = 0.0000002637
+  Range Execution Time (ms) = 0.0026999987
+  Improvement Time (%) = 92.66
+
+Generation 46:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0014439997
+  Median Execution Time (ms) = 0.0015000005
+  Variance Execution Time (ms) = 0.0000003059
+  Range Execution Time (ms) = 0.0039000006
+  Improvement Time (%) = 92.66
+
+Generation 47:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0016859996
+  Median Execution Time (ms) = 0.0014999969
+  Variance Execution Time (ms) = 0.0000020028
+  Range Execution Time (ms) = 0.0117000018
+  Improvement Time (%) = 92.66
+
+Generation 48:
+  Min Execution Time (ms) = 0.0007999988
+  Avg Execution Time (ms) = 0.0014739999
+  Median Execution Time (ms) = 0.0013999997
+  Variance Execution Time (ms) = 0.0000004957
+  Range Execution Time (ms) = 0.0061999999
+  Improvement Time (%) = 92.66
+
+Generation 49:
+  Min Execution Time (ms) = 0.0007000017
+  Avg Execution Time (ms) = 0.0011110000
+  Median Execution Time (ms) = 0.0010499989
+  Variance Execution Time (ms) = 0.0000001658
+  Range Execution Time (ms) = 0.0036999991
+  Improvement Time (%) = 93.58
+
