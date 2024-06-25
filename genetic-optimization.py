@@ -21,6 +21,7 @@ class GeneticOptimization:
         self.save_results_to_file(ts_results, 'ts_optimization_results.csv')
 
         self.plot_results(ga_results, ts_results)
+        self.analyze_and_save_results(ga_results, ts_results)
 
         return best_eval_ga, best_eval_ts
 
@@ -47,6 +48,65 @@ class GeneticOptimization:
         plt.legend()
 
         plt.tight_layout()
+        plt.grid(True)
+        plt.savefig('ga_vs_ts_optimization_performance.png')
+        plt.show()
+
+    def analyze_and_save_results(self, ga_results, ts_results):
+        # Required transformations for GA results
+        ga_df = pd.DataFrame(ga_results)
+        ga_df['Min Exec Time (ms)'] = ga_df['Best Eval']
+        ga_df['Avg Exec Time (ms)'] = ga_df['Best Eval'].expanding().mean()
+        ga_df['Median Exec Time (ms)'] = ga_df['Best Eval'].expanding().median()
+        ga_df['Variance Exec Time (ms)'] = ga_df['Best Eval'].expanding().var()
+        ga_df['Range Exec Time (ms)'] = ga_df['Best Eval'].expanding().apply(lambda x: x.max() - x.min())
+        ga_df['Improvement Time (%)'] = (1 - (ga_df['Best Eval'] / ga_df['Best Eval'].iloc[0])) * 100
+        ga_df['Std Dev Exec Time (ms)'] = ga_df['Best Eval'].expanding().std()
+
+        # Required transformations for TS results
+        ts_df = pd.DataFrame(ts_results)
+        ts_df['Min Exec Time (ms)'] = ts_df['Best Eval']
+        ts_df['Avg Exec Time (ms)'] = ts_df['Best Eval'].expanding().mean()
+        ts_df['Median Exec Time (ms)'] = ts_df['Best Eval'].expanding().median()
+        ts_df['Variance Exec Time (ms)'] = ts_df['Best Eval'].expanding().var()
+        ts_df['Range Exec Time (ms)'] = ts_df['Best Eval'].expanding().apply(lambda x: x.max() - x.min())
+        ts_df['Improvement Time (%)'] = (1 - (ts_df['Best Eval'] / ts_df['Best Eval'].iloc[0])) * 100
+        ts_df['Std Dev Exec Time (ms)'] = ts_df['Best Eval'].expanding().std()
+
+        # Save GA and TS summary tables
+        ga_df.to_csv('ga_optimization_summary.csv', index=False)
+        ts_df.to_csv('ts_optimization_summary.csv', index=False)
+        print("GA and TS results summary tables created and saved.")
+
+        # Display the table
+        print("GA Optimization Results:")
+        print(ga_df.head())
+        print("TS Optimization Results:")
+        print(ts_df.head())
+
+        # Plot summary statistics
+        self.plot_summary_statistics(ga_df, 'GA')
+        self.plot_summary_statistics(ts_df, 'TS')
+
+    def plot_summary_statistics(self, df, method):
+        plt.figure(figsize=(12, 8))
+
+        plt.plot(df.index, df['Min Exec Time (ms)'], label='Min Exec Time (ms)')
+        plt.plot(df.index, df['Avg Exec Time (ms)'], label='Avg Exec Time (ms)')
+        plt.plot(df.index, df['Median Exec Time (ms)'], label='Median Exec Time (ms)')
+        plt.plot(df.index, df['Variance Exec Time (ms)'], label='Variance Exec Time (ms)')
+        plt.plot(df.index, df['Range Exec Time (ms)'], label='Range Exec Time (ms)')
+        plt.plot(df.index, df['Improvement Time (%)'], label='Improvement Time (%)')
+        plt.plot(df.index, df['Std Dev Exec Time (ms)'], label='Std Dev Exec Time (ms)')
+
+        plt.xlabel('Generation/Iteration')
+        plt.ylabel('Execution Time (ms)')
+        plt.title(f'{method} Optimization Summary Statistics')
+        plt.legend()
+
+        plt.tight_layout()
+        plt.grid(True)
+        plt.savefig(f'{method.lower()}_optimization_summary_statistics.png')
         plt.show()
 
 def main():
